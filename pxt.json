@@ -1,7 +1,7 @@
 {
     "name": "NTC",
     "version": "1.0.0",
-    "description": "makecode 的 NTC 温度传感器 micro:bit 软件包",
+    "description": "makecode NTC Temperature Sensor package for micro:bit",
     "license": "MIT",
     "dependencies": {
         "core": "*"
