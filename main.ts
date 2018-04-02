@@ -72,33 +72,34 @@ enum NTC_B {
 let table = table_B3380
 
 /**
- * NTC 温度传感器图形块
+ * NTC mudule
  */
-//% weight=100 color=#10F080 icon="℃"
+//% weight=100 color=#10F080 icon="\uf2c8" block="NTC Sensor"
 namespace NTCSenor {
     /**
-     * NTC 温度计算
-     * @param d 模拟输入转换后的数值, eg: 256
+     * get NTC Temperature
+     * @param adc is ADC convert value, eg: 256
      */
-    //% block
-    export function 获取温度(d: number): number {
+    //% blockId="NTCSenor_GET" block="get temperature %adc"
+    //% weight=80 blockGap=8
+    export function Temperature(adc: number): number {
         for (let i = 0; i < table.length; i++) {
-            if (d > table[i])
+            if (adc > table[i])
                 return i - 40;
         }
         return 85;
     }
 
     /**
-     * NTC 系数 B 选择
-     * @param 设置NTC温度传感器的系数B, eg: NTC_B.B3380
+     * set NTC B value
+     * @param NTC B value, eg: NTC_B.B3380
      */
-    //% block
-    export function 设置系数(B: NTC_B): void {
+    //% blockId="NTCSenor_SET" block="set B value %B"
+    //% weight=100 blockGap=8
+    export function set(B: NTC_B): void {
         if (B == NTC_B.B3380)
             table = table_B3380
         else
             table = table_B3950
     }
-
 }

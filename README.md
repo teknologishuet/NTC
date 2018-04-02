@@ -21,8 +21,8 @@ to search box then search.
 - **set**(B: NTC_B)  
 B-value is a tendency for resistance in temperature change, it maybe 3380 or 3950 here.    
 
-- **getTemperature**(d: number)  
-d is the result of analog input. Function will return temperature in degree Celsius.    
+- **Temperature**(adc: number)  
+adc is the result of analog input. Function will return temperature in degree Celsius.    
 
 ## Demo
 
