@@ -92,7 +92,7 @@ namespace NTCSenor {
 
     /**
      * set NTC B value
-     * @param NTC B value, eg: NTC_B.B3380
+     * @param B is NTC B value, eg: NTC_B.B3380
      */
     //% blockId="NTCSenor_SET" block="set B value %B"
     //% weight=100 blockGap=8
