@@ -26,6 +26,8 @@ AmbientTemperature = NTCSenor.Temperature(pins.analogReadPin(AnalogPin.P1))
 
 ![](https://raw.githubusercontent.com/microbit-makecode-packages/NTC/master/sketch.jpg)
 
+![](fritzing.png)
+
 ## API
 
 - **set**(B: NTC_B)  
