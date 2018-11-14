@@ -1,5 +1,5 @@
 # NTC
-makecode NTC Temperature Sensor Package for microbit  
+makecode NTC Temperature Sensor extension for microbit  
 
 Author: shaoziyang  
 Date:   2018.Mar  
@@ -8,7 +8,7 @@ Date:   2018.Mar
 
 ## Add extension  
 
-open your microbit makecode project, in Add Package, paste  
+open your microbit makecode project, in Extensions, paste  
 
 https://github.com/microbit-makecode-packages/NTC  
 
