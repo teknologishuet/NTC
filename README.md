@@ -6,13 +6,23 @@ Date:   2018.Mar
 
 ![](https://raw.githubusercontent.com/microbit-makecode-packages/NTC/master/icon.png)
 
-## Usage
+## Add extension  
 
 open your microbit makecode project, in Add Package, paste  
 
 https://github.com/microbit-makecode-packages/NTC  
 
 to search box then search.
+
+## Basic usage  
+
+```
+let AmbientTemperature = 0
+NTCSenor.set(NTC_B.B3950)
+AmbientTemperature = NTCSenor.Temperature(pins.analogReadPin(AnalogPin.P1)) 
+```
+
+## Circuit
 
 ![](https://raw.githubusercontent.com/microbit-makecode-packages/NTC/master/sketch.jpg)
 
