@@ -4,13 +4,12 @@ makecode NTC Temperature Sensor extension for microbit
 Author: shaoziyang  
 Date:   2018.Mar  
 
-![](https://raw.githubusercontent.com/microbit-makecode-packages/NTC/master/icon.png)
 
 ## Add extension  
 
 open your microbit makecode project, in Extensions, paste  
 
-https://github.com/microbit-makecode-packages/NTC  
+https://github.com/makecode-packages/NTC  
 
 to search box then search.
 
@@ -24,7 +23,7 @@ AmbientTemperature = NTCSenor.Temperature(pins.analogReadPin(AnalogPin.P1))
 
 ## Circuit
 
-![](https://raw.githubusercontent.com/microbit-makecode-packages/NTC/master/sketch.jpg)
+![](sketch.jpg)
 
 ![](fritzing.png)
 
@@ -38,7 +37,7 @@ adc is the result of analog input. Function will return temperature in degree Ce
 
 ## Demo
 
-![](https://raw.githubusercontent.com/microbit-makecode-packages/NTC/master/demo.jpg)
+![](demo.jpg)
 
 ## License  
 
