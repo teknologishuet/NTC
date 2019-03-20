@@ -78,7 +78,7 @@ let table = table_B3380
 namespace NTCSenor {
     /**
      * get NTC Temperature
-     * @param adc is ADC convert value, eg: 256
+     * @param adc er værdien fra A/D konverteren, f.eks. 255
      */
     //% blockId="NTCSenor_GET" block="get temperature %adc"
     //% weight=80 blockGap=8
