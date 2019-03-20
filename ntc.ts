@@ -77,7 +77,7 @@ let table = table_B3380
 //% weight=20 color=#10F080 icon="\uf2c8" block="NTC Sensor"
 namespace NTCSenor {
     /**
-     * get NTC Temperature
+     * Hent Temperature
      * @param adc er værdien fra A/D konverteren, f.eks. 255
      */
     //% blockId="NTCSenor_GET" block="get temperature %adc"
