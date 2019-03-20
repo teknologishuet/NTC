@@ -9,7 +9,7 @@ Date:   2018.Mar
 
 open your microbit makecode project, in Extensions, paste  
 
-https://github.com/makecode-packages/NTC  
+https://github.com/teknologishuet/NTC
 
 to search box then search.
 
